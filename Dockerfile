@@ -12,7 +12,7 @@ RUN echo "deb http://download.mono-project.com/repo/debian wheezy main" > /etc/a
 	&& apt-get update \
 	&& echo "deb http://download.mono-project.com/repo/debian wheezy-apache24-compat main" >> /etc/apt/sources.list.d/mono-xamarin.list \
 	&& echo "deb http://download.mono-project.com/repo/debian wheezy-libjpeg62-compat main" >> /etc/apt/sources.list.d/mono-xamarin.list \
-	&& apt-get update
+	&& apt-get update \
 	&& apt-get install -y mono-devel mono-vbnc nuget \
 	&& rm -rf /var/lib/apt/lists/*
 
