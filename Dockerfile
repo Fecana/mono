@@ -1,4 +1,4 @@
-FROM 32bit/debian
+FROM mcandre/docker-debian-32bit:wheezy
 
 MAINTAINER Fecana
 
