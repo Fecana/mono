@@ -1,4 +1,4 @@
-FROM mcandre/docker-debian-32bit:wheezy
+FROM ioft/i386-ubuntu
 
 MAINTAINER Fecana
 
